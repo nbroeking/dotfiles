@@ -1,10 +1,13 @@
+" Infect pathogen
+execute pathogen#infect()
+
 " Use the Solarized Dark theme
 set background=dark
 colorscheme solarized
-let g:solarized_termtrans=1
+let g:solarized_termtrans=256
 
 " Make Vim more useful
-set nocompatible
+"set nocompatible
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)
 set clipboard=unnamed
 " Enhance command-line completion
